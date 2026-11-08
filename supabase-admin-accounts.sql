@@ -16,7 +16,7 @@ create policy "Only admins can list accounts"
   for select
   to authenticated
   using (
-    lower(coalesce((select auth.jwt() ->> 'email'), '')) = 'edouarde801@gmail.com'
+    lower(coalesce((select auth.jwt() ->> 'email'), '')) = 'edouard_v@icloud.com'
     and (select auth.jwt() -> 'app_metadata' ->> 'role') = 'admin'
   );
 
