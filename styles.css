@@ -44,6 +44,7 @@ th{border-color:#39362d}td{border-color:#292821}.row-actions{color:#e0c987;borde
 .modal-backdrop{background:#020302d9}.modal{background:linear-gradient(145deg,#1b1b18,#10110f);border-color:#d9bd7955;box-shadow:0 36px 120px #000c,inset 0 1px #ffffff15}.field input,.field select,.lineinput input{background:#0b0c0b;border-color:#514832;color:#f4f0e6}.field input:focus,.field select:focus,.lineinput input:focus{border-color:#d9bd79;box-shadow:0 0 0 3px #d9bd7925}.toast{background:linear-gradient(115deg,#2b2518,#171713);border-color:#d9bd7960;color:#f1e4bf}
 @media(max-width:560px){.app{border-radius:16px}.main{padding-top:20px}.filters{background:#090a09}}
 @media(prefers-reduced-motion:reduce){.btn:before{transition:none}}
+.client-count-card{min-height:190px;display:grid;place-items:center;text-align:center}.client-count-card .metric-value{font-size:clamp(64px,12vw,112px);line-height:1;margin:0;color:#e5d19a}
 
 /* Piano-black gloss and document-type chooser. */
 :root{--page:#050505;--paper:#0a0a0a;--nav:#070707;--line:#292723}
